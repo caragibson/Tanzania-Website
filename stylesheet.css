@@ -81,6 +81,7 @@ ul#social-media-navigation {
   border color: black;
   border-width: cover;
   padding-top: 20px;
+  position: center;
 }
 ul#social-media-navigation li {
   display: inline-block;
@@ -91,6 +92,9 @@ ul#social-media-navigation li {
 #map {
   align-content: center;
   margin: 30px 0 30px 0;
+}
+#jg-widget-fundraisingcaraegibson-67 {
+  text-decoration: none;
 }
 .social-media {
   height: 30px;

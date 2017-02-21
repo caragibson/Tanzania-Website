@@ -1,0 +1,61 @@
+body {
+	text-align: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  background: #e9ebee;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.topnav li {
+  float: left;
+}
+ul.topnav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    color: black;
+}
+h1 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  margin: 40px 0 40px 0;
+}
+a {
+  padding: 20px 10px 0px 10px;  
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  display: inline;
+}
+ul#topnav li {
+  text-align: center;
+  display: inline-block;
+}
+ul#social-media-navigation {
+  border-top: double;
+  border color: black;
+  border-width: cover;
+  padding-top: 20px;
+  position: center;
+}
+ul#social-media-navigation li {
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  color: black;
+}
+.social-media {
+  height: 30px;
+  width: 30px;
+}
