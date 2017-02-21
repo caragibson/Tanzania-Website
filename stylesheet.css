@@ -1,0 +1,119 @@
+body {
+	text-align: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  background: #e9ebee;
+}
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.topnav li {
+  float: left;
+}
+ul.topnav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+    color: black;
+}
+div {
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin: 40px 0 40px 0;
+  border-radius: 15px;
+  border-style: solid;
+  border-spacing: 10px;
+  border-width: 6px;
+  border-color: rgba(0,0,0,0.6);
+}
+h1 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  margin: 40px 0 40px 0;
+}
+a {
+  padding: 20px 10px 0px 10px;  
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 22px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  display: inline;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,0.8), rgba(0,0,0,.2));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.8), rgba(0,0,0,.2));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,0.8), rgba(0,0,0,.2));
+  font-size: 18px;
+  font-family: 'Handlee', cursive;
+  padding: 8px;
+  line-height: 26px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  height: 45px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+small {
+  opacity: 0;
+}
+ul#topnav li {
+  text-align: center;
+  display: inline-block;
+}
+ul#social-media-navigation {
+  border-top: double;
+  border color: black;
+  border-width: cover;
+  padding-top: 20px;
+}
+ul#social-media-navigation li {
+  display: inline-block;
+  text-align: center;
+  list-style-type: none;
+  color: black;
+}
+#map {
+  align-content: center;
+  margin: 30px 0 30px 0;
+}
+.social-media {
+  height: 30px;
+  width: 30px;
+}
+.show-description p {
+  height: 160px;
+}
+.show-description small {
+  opacity: 1;
+}
+.project {
+  background-image: url("https://images.jg-cdn.com/image/e4b65104-22f5-436e-91ca-480e6bf9d2a4.jpg?template=FundraisingPageHeroImageM");
+}
+.fundraising {
+  background-image: url("https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-9/16649043_10154184570871479_4231507057929068087_n.jpg?oh=94025a15a372cd7484ab56bde340f83f&oe=5934D63F");
+}
+.run {
+  background-image: url("https://d1ffaecguugkl4.cloudfront.net/london10k/live/uploads/imageuploader_cms/d10116343957a04f3eabdbfa2cf5b83bab91/i650x390.jpg");
+}
+div#Tanzania {
+  text-align: center;
+}
+span#sustainable {
+  font-weight: bold;
+}
