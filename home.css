@@ -42,6 +42,11 @@ ul#topnav li {
   text-align: center;
   display: inline-block;
 }
+img#congratulations {
+  border: solid;
+  border-radius: 10px;
+  max-height: 300px;
+}
 ul#social-media-navigation {
   border-top: double;
   border color: black;
@@ -58,4 +63,8 @@ ul#social-media-navigation li {
 .social-media {
   height: 30px;
   width: 30px;
+}
+div#jg-widget-caraegibson-570 {
+  position: center;
+  display: inline;
 }
