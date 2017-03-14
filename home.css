@@ -1,70 +1,69 @@
-body {
-	text-align: center;
-  margin: 0 auto;
-  max-width: 1000px;
-  background: #e9ebee;
+
+header {
+  padding: 20px 0;
 }
-ul.topnav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+header nav {
+  display: flex;
+  justify-content: flex;
 }
-ul.topnav li {
-  float: left;
+.navbar-header, .navbar-nav {
+  width:100%;
 }
-ul.topnav li a {
-    display: inline-block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-    color: black;
+
+.navbar-nav {
+  text-align: right;
 }
-h1 {
-  font-family: 'Love Ya Like A Sister', cursive;
-  font-size: 50px;
-  text-align: center;
+
+ul.navbar-nav li {
+  display: inline-block;
+  margin: 0;
+  padding: 0px 20px;
+  transition: 0.3s;
+  font-size: 22px;
   color: black;
-  margin: 40px 0 40px 0;
+  text-align:right;
+  float:none;
+}
+ul.navbar-nav li#title {
+  margin: 0;
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  color: #799575;
+  display: inline-block;
+  padding: 10px 20px;  
+  float: left;
+  text-align:left;
 }
 a {
-  padding: 20px 10px 0px 10px;  
+  padding: 0px 10px 0px 10px;  
   font-family: 'Love Ya Like A Sister', cursive;
   font-size: 22px;
   font-weight: bold;
   color: black;
   text-align: center;
-  display: inline;
-}
-ul#topnav li {
-  text-align: center;
   display: inline-block;
+  text-decoration: none;
 }
-img#congratulations {
-  border: solid;
-  border-radius: 10px;
-  max-height: 300px;
+body {
+  margin: 0 auto;
+  background: #e9ebee;
+  padding-top: 30px;
+}
+div#raleigh {
+  padding: 20px 20px;
 }
 ul#social-media-navigation {
   border-top: double;
   border color: black;
-  border-width: cover;
-  padding-top: 20px;
-  position: center;
+  padding: 20px;
+  list-style-type: none;
+  text-align: center;
 }
 ul#social-media-navigation li {
-  display: inline-block;
   text-align: center;
-  list-style-type: none;
-  color: black;
+  display: inline-block;
 }
 .social-media {
-  height: 30px;
-  width: 30px;
-}
-div#jg-widget-caraegibson-570 {
-  position: center;
-  display: inline;
+  max-height: 20px;
 }
