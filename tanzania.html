@@ -1,40 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"
-  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-  crossorigin="anonymous"></script>
+<script src="jquery-3.1.1.min.js"></script>
+<script src="application.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Handlee|Londrina+Shadow" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Handlee|Love+Ya+Like+A+Sister" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
 
 <title>Cara's Tanzania Project</title>
-<link rel='stylesheet' type ='text/css' href='stylesheet.css'>
+<link rel='stylesheet' type ='text/css' href='home.css'>
+<html lang="en"></html>
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body>
-<h1>Tanzania</h1>
+<header class="container-fluid">
+  <div class="row">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+            <ul class="nav navbar-nav">
+            <li id="title">Cara's Tanzania Project</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="tanzania.html">Tanzania</a></li>
+            <li><a href="raleigh.html">Charity</a></li>
+            <li><a href="fundraising.html">Fundraising</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+</header>
 
-<ul id="topnav">
-  <li><a href="index.html">Home</a></li>
-  <li><a href="tanzania.html">Tanzania</a></li>
-  <li><a href="project.html">My Project</a></li>
-  <li><a href="fundraising.html">Fundraising</a></li>
-</ul>
-
-<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8120963.141889038!2d30.394324956034005!3d-6.353376975558938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184b51314869a111%3A0x885a17314bc1c430!2sTanzania!5e0!3m2!1sen!2suk!4v1487704267779" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-<div class="about show-description">
-<p><strong>Tanzania</strong><br /><small>Tanzania is located in East Africa</small></p>
-</div>
-
-<div class="project show-description">
-	<p><strong>Livelihoods Project</strong><br /><small>This summer I will be volunteering in Tanzania for 10 weeks with Raleigh International on an International Citizen Service placement. My project involves encouraging sustainable livelihoods and enterprise development by working with groups and individuals in rural communities. I will be building community resilience through supporting young people and helping small businesses find ways to enhance the long term sustainability of their enterprises.</small></p>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6">
+      <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8120963.141889038!2d30.394324956034005!3d-6.353376975558938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x184b51314869a111%3A0x885a17314bc1c430!2sTanzania!5e0!3m2!1sen!2suk!4v1487704267779" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div id="project show-description" class="col-sm-6">
+  <p><strong>Livelihoods Project</strong><br /><small>This summer I will be volunteering in Tanzania for 10 weeks with Raleigh International on an International Citizen Service placement. My project involves encouraging sustainable livelihoods and enterprise development by working with groups and individuals in rural communities. I will be building community resilience through supporting young people and helping small businesses find ways to enhance the long term sustainability of their enterprises.</small></p>
+    </div>
+  </div>
 </div>
 
 <ul id="social-media-navigation">
-  <li><a href ="http://www.facebook.com"><img class="social-media" src="facebook icon.png"></a></li>
-  <li><a href="https://www.instagram.com/cara.gibson"><img class="social-media" src="Instagram icon.png"></a></li>
+  <li><a href ="https://www.facebook.com/caraegibson" class="btn btn-facebook" role="button"><img class="social-media" src="facebook icon.png"></a></li>
+  <li><a href="https://www.instagram.com/cara.gibson" class="btn btn-instagram" role="button"><img class="social-media" src="Instagram icon.png"></a></li>
+  <li><a href="https://www.linkedin.com/in/cara-gibson-690979134/" class="btn btn-linkedin" role="button"><img class="social-media" src="linkedin icon.png"></a></li>
   <br />
   <li><a href='http://www.justgiving.com/CaraEGibson' title='JustGiving - Sponsor me now!' target='_blank'><img src='http://www.justgiving.com/App_Themes/JustGiving/images/badges/badge10.gif' width='270' height='50' alt='JustGiving - Sponsor me now!' /></a></li>
 </ul>
