@@ -1,44 +1,20 @@
-
-header {
-  padding: 20px 0;
-}
-header nav {
-  display: flex;
-  justify-content: flex;
-}
-.navbar-header, .navbar-nav {
-  width:100%;
+.navbar-default {
+    background-color: #e9ebee;
 }
 
-.navbar-nav {
-  text-align: right;
+.navbar-header {
+    float: initial;
 }
 
-ul.navbar-nav li {
-  display: inline-block;
-  margin: 0;
-  padding: 0px 20px;
-  transition: 0.3s;
-  font-size: 22px;
-  color: black;
-  text-align:right;
-  float:none;
+.navbar-header .navbar-nav {
+    display: flex;
+    justify-content: center;
+    float: initial;
 }
-ul.navbar-nav li#title {
-  margin: 0;
+.navbar-nav>li>a {
+  padding: 15px 40px;
   font-family: 'Love Ya Like A Sister', cursive;
-  font-size: 25px;
-  font-weight: bold;
-  color: #799575;
-  display: inline-block;
-  padding: 10px 20px;  
-  float: left;
-  text-align:left;
-}
-a {
-  padding: 0px 10px 0px 10px;  
-  font-family: 'Love Ya Like A Sister', cursive;
-  font-size: 22px;
+  font-size: 28px;
   font-weight: bold;
   color: black;
   text-align: center;
@@ -48,14 +24,100 @@ a {
 body {
   margin: 0 auto;
   background: #e9ebee;
-  padding-top: 30px;
 }
-div#raleigh {
-  padding: 20px 20px;
+
+.carousel {
+    height: 100vh;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-inner .item {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title {
+    position: absolute;
+    top: 90px;
+    bottom: 70px;
+    left: 15%;
+    right: 15%;
+    z-index: 1000;
+    text-align: center;
+}
+h1 {
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 80px;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    }
+.item--congratulations {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Giraffes_Arusha_Tanzania.jpg/1280px-Giraffes_Arusha_Tanzania.jpg");
+}
+.item--background2 {
+    background-image: url("elephant.jpg");
+}
+.item--tanzania {
+    background-image: url("tree.jpg");
+}
+h2 {
+    text-align: center;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 45px;
+    padding-top: 50px;
+}
+h3 {
+  font-size: 20px;
+  font-family: 'Delius', cursive;
+  font-weight: bold;
+}
+.description {
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Droid Serif', serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box {
+    flex: 1 0 0px;
+    background-color: white;
+    margin: 18px 20px;
+    min-width: 300px;
+    border-style: ridge;
+    border-width: 5px;
+}
+.mapbox {
+    flex: 0 0 410px;
+}
+.text {
+    padding: 18px;
+    font-family: 'Delius', cursive;
+}
+.picture {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.ics {
+    background-image: url("shakinghands.jpg");
+}
+.raleigh {
+    background-image: url("poster.jpg");
+ }
+.minimarathon {
+    background-image: url("https://fc4i023vxxt1ewr781577681-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/Fundrasing_FBCoverphoto5.jpg");
+ }
+ .run {
+    background-image: url("minimarathon.jpg");
+}
+.jg-widget {
+    margin: auto;
 }
 ul#social-media-navigation {
-  border-top: double;
-  border color: black;
   padding: 20px;
   list-style-type: none;
   text-align: center;
