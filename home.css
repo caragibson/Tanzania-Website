@@ -107,6 +107,12 @@ h3 {
     background-repeat: no-repeat;
     height: 250px;
 }
+iframe {
+  padding: 10px;
+  border-style: ridge;
+  border-width:5px;
+  background: white;
+}
 .ics {
     background-image: url("shakinghands.jpg");
 }
@@ -140,13 +146,60 @@ ul#social-media-navigation {
 ul#social-media-navigation li {
   text-align: center;
   display: inline-block;
-  border-style: solid;
-  border-color: white;
-  border-radius: 50px;
+  opacity: 0.8;
+}
+ul#social-media-navigation li:hover {
+  opacity: 1;
 }
 .social-media {
   max-height: 20px;
 }
 ul#contactdetails {
   list-style-type: none;
+}
+ul#contactdetails li {
+  font-family: 'Delius', cursive;
+  color: #3a9937;
+  text-align: center;
+}
+#signup {
+  text-align: center;
+  display: flex;
+}
+input[type=text], input[type=email] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+.signupbtn {
+    width: 25%;
+}
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+        width: 25%;
+    }
 }
