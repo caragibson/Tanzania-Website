@@ -12,15 +12,21 @@
     float: initial;
     flex-wrap: wrap;
 }
-.navbar-nav>li>a {
-  padding: 15px 40px;
-  font-family: 'Love Ya Like A Sister', cursive;
-  font-size: 28px;
-  font-weight: bold;
-  color: black;
-  text-align: center;
-  display: inline-block;
-  text-decoration: none;
+ul.navbar-nav {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ul.navbar-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 25px;
+    font-weight: bold;
 }
 body {
   margin: 0 auto;
@@ -42,7 +48,7 @@ body {
 }
 .title {
     position: absolute;
-    top: 90px;
+    top: 160px;
     bottom: 70px;
     left: 15%;
     right: 15%;
@@ -187,19 +193,15 @@ button {
 .signupbtn {
     width: 25%;
 }
-/* Add padding to container elements */
 .container {
     padding: 16px;
 }
-/* Clear floats */
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
-
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
     .signupbtn {
         width: 50%;
     }
@@ -207,7 +209,15 @@ button {
         font-size: 50px;
         padding-top: 50px;
     } 
-    .navbar-nav>li>a {
-      font-size: 25px;
-    }   
+    .nav navbar-nav {
+      width: 100%;
+      display: block;
+    } 
+    .navbar-header {
+    float: none;
+    }
+    .navbar-header .navbar-nav {
+    display: block;
+    justify-content: center;
+    }
 }
