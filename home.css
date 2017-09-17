@@ -62,13 +62,13 @@ h1 {
     text-shadow: black 0.1em 0.1em 0.2em;
     }
 .item--background1 {
-    background-image: url("giraffes.jpg");
+    background-image: url("trainingcentre.jpg");
 }
 .item--background2 {
-    background-image: url("coffee.jpg");
+    background-image: url("giraffe.jpg");
 }
 .item--background3 {
-    background-image: url("mountain.jpg");
+    background-image: url("fruit.jpg");
 }
 h2 {
     text-align: center;
@@ -130,7 +130,7 @@ iframe {
     background-image: url("Fundraising1.jpg");
  }
  .run {
-    background-image: url("minimarathon.jpg");
+    background-image: url("10k.jpg");
 }
 .moreinfo {
   text-decoration: none;
@@ -208,11 +208,11 @@ button {
     h1 {
         font-size: 50px;
         padding-top: 50px;
-    } 
+    }
     .nav navbar-nav {
       width: 100%;
       display: block;
-    } 
+    }
     .navbar-header {
     float: none;
     }
