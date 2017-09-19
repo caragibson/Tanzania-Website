@@ -62,13 +62,13 @@ h1 {
     text-shadow: black 0.1em 0.1em 0.2em;
     }
 .item--background1 {
-    background-image: url("trainingcentre.jpg");
+    background-image: url("trainingcentre.JPG");
 }
 .item--background2 {
-    background-image: url("giraffe.jpg");
+    background-image: url("giraffe.JPG");
 }
 .item--background3 {
-    background-image: url("fruit.jpg");
+    background-image: url("fruit.JPG");
 }
 h2 {
     text-align: center;
