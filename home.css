@@ -24,13 +24,12 @@ ul.navbar-nav li a {
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-    font-family: 'Love Ya Like A Sister', cursive;
+    font-family: 'Delius', cursive;
     font-size: 25px;
-    font-weight: bold;
 }
 body {
   margin: 0 auto;
-  background: #e9ebee;
+  background: white;
 }
 
 .carousel {
@@ -81,11 +80,8 @@ h3 {
   font-family: 'Delius', cursive;
   font-weight: bold;
 }
-#video {
-  margin-top: 20px;
-}
 .description {
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
     font-family: 'Droid Serif', serif;
     display: flex;
@@ -95,7 +91,7 @@ h3 {
 .box {
     flex: 1 0 0px;
     background-color: white;
-    margin: 18px 20px;
+    margin: 15px 20px;
     min-width: 300px;
     border-style: ridge;
     border-width: 5px;
@@ -108,6 +104,7 @@ h3 {
     font-family: 'Delius', cursive;
     margin: 20px 20px;
     min-width: 300px;
+    font-size: 18px;
 }
 .picture {
     background-size: cover;
@@ -132,6 +129,21 @@ iframe {
  .run {
     background-image: url("10k.jpg");
 }
+.actionathome {
+    background-image: url("lunch.JPG")
+}
+.team {
+    background-image: url("jumping.JPG")
+}
+.livelihoods {
+    background-image: url("teaching.JPG")
+}
+.supportive {
+    background-image: url("secondaryskl.jpg")
+}
+.signs {
+    background-image: url("signs.jpg")
+}
 .moreinfo {
   text-decoration: none;
   color: black;
@@ -144,6 +156,20 @@ iframe {
     margin: auto;
     margin-top: 20px;
     padding: 10px;
+}
+.square img {
+    object-fit: cover;
+    width:220px;
+    height:160px;
+    margin: 15px;
+    border-style: ridge;
+    border-width: 5px;
+}
+.Gallery {
+    max-width: 900px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;
 }
 ul#social-media-navigation {
   padding: 20px;
@@ -161,18 +187,6 @@ ul#social-media-navigation li:hover {
 .social-media {
   max-height: 20px;
 }
-ul#contactdetails {
-  list-style-type: none;
-}
-ul#contactdetails li {
-  font-family: 'Delius', cursive;
-  color: #3a9937;
-  text-align: center;
-}
-#signup {
-  text-align: center;
-  display: flex;
-}
 input[type=text], input[type=email] {
     width: 25%;
     padding: 12px 20px;
@@ -188,9 +202,6 @@ button {
     margin: 8px 0;
     border: none;
     cursor: pointer;
-    width: 25%;
-}
-.signupbtn {
     width: 25%;
 }
 .container {
@@ -220,4 +231,7 @@ button {
     display: block;
     justify-content: center;
     }
+}
+.col-md-4 {
+    padding: 30px;
 }
